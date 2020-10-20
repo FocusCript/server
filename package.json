@@ -1,0 +1,27 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "Practice project using React, NodeJS, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js"
+  },
+  "engines": {
+    "node": "10.13.0"
+  },
+  "author": "FocusDEV",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^4.1.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "mongoose": "^5.3.13",
+    "nodemon": "^1.18.7"
+  }
+}
